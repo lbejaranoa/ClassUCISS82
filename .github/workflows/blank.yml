@@ -35,3 +35,6 @@ jobs:
 
       - name: Ejecutar pruebas
         run: pytest
+      
+      - name: Simular deploy
+        run: echo "Desplegando aplicación..."
